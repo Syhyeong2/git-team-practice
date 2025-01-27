@@ -16,4 +16,6 @@ public class MinsuController {
                 .age("25")
                 .build();
     }
+    
+    
 }
