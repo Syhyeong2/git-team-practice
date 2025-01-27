@@ -12,7 +12,7 @@ public class JonggeunController {
     public MemberResponseDTO jonggeun() {
         return MemberResponseDTO.builder()
                 .name("종근")
-                .email("afsd0104@gmail.com")
+                .email("afsd1111@gmail.com")
                 .age("26")
                 .build();
     }
