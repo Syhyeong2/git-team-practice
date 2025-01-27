@@ -5,8 +5,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import com.syhy.git_team_practice.dto.MemberResponseDTO;
 
-@Controller
+@RestController
 public class MyungGeunController {
+
 
     @GetMapping("/myunggeun")
     public MemberResponseDTO myunggeun() {
