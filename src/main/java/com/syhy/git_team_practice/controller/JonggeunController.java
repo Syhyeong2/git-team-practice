@@ -6,16 +6,15 @@ import org.springframework.web.bind.annotation.RestController;
 import com.syhy.git_team_practice.dto.MemberResponseDTO;
 
 @RestController
-public class MinsuController {
+public class JonggeunController {
 
-    @GetMapping("/minsu")
-    public MemberResponseDTO minsu() {
+    @GetMapping("/jonggeun")
+    public MemberResponseDTO jonggeun() {
         return MemberResponseDTO.builder()
-                .name("민수")
-                .email("minsu@gmail.com")
-                .age("25")
+                .name("종근")
+                .email("afsd0104@gmail.com")
+                .age("26")
                 .build();
     }
-    
-    
+
 }
